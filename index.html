@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Password Generator</title>
+	<!-- CSS only -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:300">
+    <link rel="stylesheet" href="css/style.css">
+    
+	
+</head>
+<body>
+
+	<!-- Top content -->
+	<div class="top-content">
+	    <div class="container">
+	        <div class="row">
+	            <div class="col-md-8 offset-md-2 text">
+	                <h1 class="wow fadeInLeftBig">Password Generator</h1>
+	                <div class="description wow fadeInLeftBig">
+	                    <p>
+	                        Click on Generate to create a strong password with letters, symbols and numbers.
+	                    </p>
+	                </div>
+	                <div class="input-group gen">
+	                	<input type="text" id="password" class="form-control form-control-lg" aria-describedby="passwordHelp" placeholder="7cPx)2H]L=_V8fR7#D4:" disabled readonly>
+	                	<button class="btn btn-outline-secondary disabled copy" type="button" id="copy" title="Password Copied" onclick="copyToClipboard()" data-toggle="tooltip" data-placement="top">Copy</button>
+					  	<button class="btn btn-outline-secondary gen_pass" type="button" id="generate" title="Generate Password" onclick="generatePassword()">Generate</button>
+					</div>
+	            </div>
+	        </div>
+	    </div>            
+	</div>
+
+	<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="js/index.js"></script>
+
+	<!-- JavaScript Bundle with Popper -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+	
+
+</body>
+
+</html>

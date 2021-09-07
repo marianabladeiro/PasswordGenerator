@@ -1,0 +1,64 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #fffcf8;
+    line-height: 30px;
+    text-align: center;
+    background-color: #BEDCFE;
+}
+ 
+strong { font-weight: 600; }
+ 
+a, a:hover, a:focus {
+    color: #9b59b6;
+    text-decoration: none;
+    transition: all .3s;
+}
+ 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5rem;
+    font-weight: bold;
+    color: #fffaf1;
+    line-height: 50px;
+}
+
+p {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.container {
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.form-control {
+    background-color: white !important;
+}
+
+.gen {
+    margin-top: 2rem;
+}
+ 
+button {
+    background-color: #c0befe !important;
+    border-color: #c0befe !important ;
+    border-style: solid !important;
+}
+
+.copy {
+    background-color: #d8d7fe !important;
+    border-color: #d8d7fe !important ;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
